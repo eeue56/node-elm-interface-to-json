@@ -1,5 +1,5 @@
 {
-  "name": "elm-interface-to-json",
+  "name": "node-elm-interface-to-json",
   "version": "0.0.1",
   "description": "A Javascript version of elm-interface-to-json",
   "main": "index.js",
