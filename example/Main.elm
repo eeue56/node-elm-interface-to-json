@@ -1,14 +1,21 @@
 module Main exposing (hello)
 
+{-| @docs hello
+-}
+
 import Json.Decode
 import Other exposing (..)
 
 
+{-| Say hello
+-}
 hello : Int -> Int
 hello x =
     x + 1
 
 
+{-| fish fish fish
+-}
 fish : String -> Int
 fish str =
     5

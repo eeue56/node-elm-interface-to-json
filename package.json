@@ -1,8 +1,9 @@
 {
   "name": "node-elm-interface-to-json",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Javascript version of elm-interface-to-json",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "test": "node_modules/.bin/tsfmt -r && node_modules/.bin/tslint --fix -p . && node_modules/.bin/tsc",
     "prepublishOnly": "node_modules/.bin/tsc -p ./ --outDir dist/"
