@@ -34,3 +34,16 @@ decodeName =
 otherThing : Other String Int
 otherThing =
     Other "" 1
+
+
+type God
+    = Dog
+    | God
+
+
+type alias Cat =
+    Json.Decode.Decoder String
+
+
+type alias Model =
+    { name : String }
